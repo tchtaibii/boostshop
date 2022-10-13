@@ -174,11 +174,11 @@ li a{
 }
 
 .c1 h1{
-    font-family: 'Inter';
+    font-family: 'Gilmer Heavy';
     font-size: 45px;
     line-height: 70px;
     margin-top: -23px;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 .c1p{
     font-family: 'Inter';
@@ -191,7 +191,7 @@ li a{
     letter-spacing: -1px;
 
     color: #846D84;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .tag{
     display: flex;
@@ -328,8 +328,8 @@ li a{
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 88px;
-    margin-bottom: 40px;
+    margin-top: 154px;
+    margin-bottom: 100px;
     width: 55%;
 }
 #content2 h2, #whatmakes h2, #frequently h2{
@@ -350,7 +350,10 @@ li a{
     letter-spacing: -0.04em;
     color: #848484;
 }
-
+.pricesp{
+    margin-top: 154px;
+    margin-bottom: 100px;
+}
 #content3{
     display: flex;
     flex-direction: row;
@@ -358,7 +361,7 @@ li a{
     align-items: center;
     margin: 0 auto;
     width: 90%;
-    margin-bottom: 50px;
+    margin-bottom: 137px;
     align-items: flex-start;
     height: fit-content;
 }
@@ -376,6 +379,10 @@ li a{
     background: #161717;
     border-radius: 20px;
     padding-left: 40px;
+}
+#frequently{
+    margin-top: 164px;
+    margin-bottom: 100px;
 }
 .img3{
     display: flex;
@@ -525,8 +532,8 @@ li a{
     border-radius: 26px;
     padding: 0 87px;
     margin: auto;
-    margin-top: 80px;
-    margin-bottom: 124px;
+    margin-top: 156px;
+    margin-bottom: 176px;
 }
 
 .text5{
@@ -986,6 +993,9 @@ footer hr{
     margin-left: 0;
 }
 
+#secondsc, #thirdsc, #foursc, #fivsc{
+    display: none;
+}
 
 @media (max-width:1280px) {
     #content2 h2, #whatmakes h2, #frequently h2 {
@@ -1077,6 +1087,9 @@ footer hr{
         font-size: 12px;
         line-height: 21px;
     }
+    #content5{
+        width: 100%;
+    }
 }
 
 @media (max-width: 760px) {
@@ -1103,6 +1116,123 @@ footer hr{
 }
 @media (max-width:500px) {
     #content2 h2, #whatmakes h2, #frequently h2 {
-        font-size: 16px;
+        font-size: 14px;
+    }
+}
+@media (max-width:438px) {
+    .line-d {
+        right: 5px;
+    }
+    .tag {
+        Width: 190px;
+        Height: 32px;
+        border-radius: 16px;
+        font-size: 10px;
+    }
+    .c1 h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .c1p {
+        width: 70%;
+        font-size: 10px;
+        text-align: center;
+    }
+    .gets, .lears{
+        width: 99px;
+        height: 51px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .gets img{
+        display: none;
+    }
+    .c3-box {
+        width: 271px;
+    }
+    .price-box {
+        Width: 293px;
+    }
+}
+@media (max-width: 391px) {
+    .c3-box, .price-box{
+        width: 200px;
+        height: 388px;
+    }
+
+    .ppr {
+        font-size: 20px;
+        position: relative;
+        left: 30px;
+    }
+    #frequentlty-t p {
+        font-size: 8px;
+        line-height: 15px;
+    }
+    #content5 {
+        width: 100%;
+    }
+    .c1 h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .logoimg {
+        max-width: 98px;
+    }
+    #content2 h2, #whatmakes h2, #frequently h2 {
+        font-size: 10px;
+    }
+    #content2 p, #whatmakes p, #frequently p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    #frequentlty-t h1 {
+        font-size: 10px;
+    }
+    .purshase-now {
+        Width: 131.88px;
+        Height: 43px;
+        top: 29px;
+    }
+    .t-up, .date-up {
+        font-size: 12px;
+    }
+    .line-d {
+        height: 20px;
+        position: relative;
+        right: -21px;
+    }
+    .price-dollar {
+        margin-top: 0;
+    }
+    .include {
+        margin-top: 0px;
+    }
+    .priceimg {
+        position: relative;
+        bottom: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: #FA47D8;
+    }
+    .include {
+        font-size: 15px;
+    }
+    
+    .check-p {
+        font-size: 12px;
+    }
+    .priceimg img{
+        width: 50%;
+    }
+    .check-items img{
+        width: 10%;
+    }
+    .c3-box h2{
+        font-size: 20px;
     }
 }
